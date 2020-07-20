@@ -1,0 +1,13 @@
+---
+
+- name: My First Task
+  become: yes
+  package:
+    name: "{{ item }}"
+    state: absent
+  with_items:
+    - tmux
+    - git
+    - vim
+
+...

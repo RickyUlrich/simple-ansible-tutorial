@@ -1,0 +1,5 @@
+
+# from GitHub
+- src: https://github.com/geerlingguy/ansible-role-docker
+- src: https://github.com/geerlingguy/ansible-role-pip
+- src: https://github.com/geerlingguy/ansible-role-repo-epel

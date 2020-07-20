@@ -1,0 +1,11 @@
+
+[tutorial_host]
+127.0.0.1
+
+[tutorial_host:vars]
+ansible_ssh_user=vagrant
+ansible_ssh_port=2222
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
+ansible_ssh_private_key_file=.vagrant/machines/default/virtualbox/private_key
+ansible_become_method=sudo
